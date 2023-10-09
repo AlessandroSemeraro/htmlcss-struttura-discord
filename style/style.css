@@ -16,11 +16,23 @@
     .bottom-header{
         height: 30rem;
         background-color: #00008B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 4px solid #ADD8E6;
     }
 
     .navbar{
         height: 2.5rem;
         width: 65%;
-         border: 3px dashed black;
+        border: 3px dashed black;
         background-color: #DAA520;
     }
+
+    .jumbotron-first-section{
+        height: 25rem;
+        background-color: #EE82EE;
+        border:3px dashed black ;
+        width: 50%;
+    }
+    
