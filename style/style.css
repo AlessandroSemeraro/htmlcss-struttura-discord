@@ -170,5 +170,21 @@
         background-color: #23272A;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-end;
     }
+
+    .footer-bar{
+    height: 3rem;
+    width: 65%;
+    background-color: #7FFFD4;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+   .footer-item-bar{
+    width: fit-content;
+    background-color: #FFB6C1;
+    padding: 0.1rem;
+   }
