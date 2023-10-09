@@ -9,8 +9,12 @@
     list-style-type: none;
     }
 
+    .li-padding{
+        padding: 0 0.5rem;
+    }
+
     .top-header{
-        height: 5rem;
+        padding: 1.5rem 0rem;
         background-color: #ADD8E6;
         display: flex;
         justify-content: center;
@@ -18,7 +22,7 @@
     }
 
     .bottom-header{
-        height: 30rem;
+        padding: 2rem;
         background-color: #00008B;
         display: flex;
         justify-content: center;
@@ -56,10 +60,7 @@
         display: flex;
     }
 
-    .li-padding{
-        padding: 0 0.5rem;
-    }
-
+   
     .jumbotron-first-section{
         height: 25rem;
         background-color: #EE82EE;
