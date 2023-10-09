@@ -5,6 +5,10 @@
         box-sizing: border-box;
     }
 
+    ul{
+    list-style-type: none;
+    }
+
     .top-header{
         height: 5rem;
         background-color: #ADD8E6;
@@ -27,6 +31,14 @@
         width: 65%;
         border: 3px dashed black;
         background-color: #DAA520;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .ul-flex{
+        display: flex;
     }
 
     .jumbotron-first-section{
@@ -36,3 +48,30 @@
         width: 50%;
     }
     
+    .bg-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-size{
+        height: 35rem;
+    }
+
+    .bg-color-first-section{
+        background-color: #FFFFFF;
+    }
+
+    .bg-color-second-section{
+        background-color: #D3D3D3;
+    }
+
+    .bg-color-third-section{
+        background-color: #FFFFFF;
+    }
+
+    .container{
+        height: 85%;
+        width: 65%;
+        border: 3px dashed black;
+    }
