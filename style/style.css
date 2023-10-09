@@ -39,15 +39,25 @@
 
     .Logo-size{
         width: 15%;
+        padding-left: 0.5rem;
     }
     
     .login-size{
         width: 15%;
-            
+        padding-right: 0.5rem;
+    }
+
+    .login-left-flex{
+        display: flex;
+        justify-content: flex-end;
     }
 
     .ul-flex{
         display: flex;
+    }
+
+    .li-padding{
+        padding: 0 0.5rem;
     }
 
     .jumbotron-first-section{
@@ -67,19 +77,19 @@
         height: 35rem;
     }
 
-    .bg-color-first-section{
+    .main-bg-color-first-section{
         background-color: #FFFFFF;
     }
 
-    .bg-color-second-section{
+    .main-bg-color-second-section{
         background-color: #D3D3D3;
     }
 
-    .bg-color-third-section{
+    .main-bg-color-third-section{
         background-color: #FFFFFF;
     }
 
-    .container{
+    .main-container{
         height: 85%;
         width: 65%;
         border: 3px dashed black;
@@ -98,10 +108,67 @@
         background-color: #FFC0CB;
     }
 
+    .orange-box{
+        width: 30%;
+        height: 100%;
+        background-color: #F08080;
+    }
+
+    .bluetea-box{
+        width: calc(70% / 4) ;
+        height: 100%;
+        background-color: #20B2AA;
+    }
+
+    .border{
+        border:3px dashed black ;
+    }
+
+    .border-white{
+        border:2px dashed white;
+    }
+
     .border-right{
         border-right: 3px dashed black;
     }
 
     .border-left{
         border-left: 3px dashed black;
+    }
+
+    .main-bg-bottom-size{
+        height: 50rem;
+        background-color: #D3D3D3;
+    }
+
+    .container-bottom-size{
+        height: 85%;
+        width: 65%;
+    }
+
+    .main-bg-color-fourth-section{
+        background-color: #228B22;
+    }       
+
+    .footer-bg-color{
+        background-color: #23272A;
+    }
+
+    .bg-footer-display{
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid #D4D4D5;
+    }
+
+    .footer-main-container{
+        margin-top: 1rem;
+        border:3px dashed black ;
+    }
+
+    .footer-bottom{
+        height: 5rem;
+        background-color: #23272A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
