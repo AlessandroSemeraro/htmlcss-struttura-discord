@@ -1,0 +1,26 @@
+    /*RESET*/
+    *{
+        padding: 0; 
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .top-header{
+        height: 5rem;
+        background-color: #ADD8E6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-header{
+        height: 30rem;
+        background-color: #00008B;
+    }
+
+    .navbar{
+        height: 2.5rem;
+        width: 65%;
+         border: 3px dashed black;
+        background-color: #DAA520;
+    }
